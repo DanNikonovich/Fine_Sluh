@@ -6,6 +6,23 @@
     font-weight:400;
     font-style:normal
 }
+/* Обёртка-ссылка */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: block;
+  cursor: pointer;
+}
+
+/* Само изображение */
+#scrollToTopImg {
+  width: 50px;  /* уменьшите размер стрелки */
+  height: 50px; /* сохраните пропорции, если нужно */
+  transition: transform 0.3s ease;
+}
+
 
 /* Стили для аккуратного внешнего вида */
 .custom-accordion {
